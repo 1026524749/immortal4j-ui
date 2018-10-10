@@ -93,4 +93,11 @@ export default {
   cssnano: {
     mergeRules: false,
   },
+  "proxy": {
+    "/api": {
+      "target": "http://111.230.17.41/",
+      "changeOrigin": true,
+      "pathRewrite": { "^/" : "" }
+    }
+  }
 };

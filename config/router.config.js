@@ -40,6 +40,19 @@ export default [
           },
         ],
       },
+      //mytest
+      {
+        path: '/dept',
+        name: 'dept',
+        icon: 'table',
+        routes: [
+          {
+            path: '/dept/list',
+            name: 'list',
+            component: './Dashboard/Analysis',
+          }
+        ]
+      },
       // forms
       {
         path: '/form',

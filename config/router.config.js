@@ -49,7 +49,7 @@ export default [
           {
             path: '/dept/list',
             name: 'list',
-            component: './Dashboard/Analysis',
+            component: './Dept/TableList',
           }
         ]
       },
